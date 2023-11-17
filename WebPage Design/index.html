@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+</head>
+
+<body>
+
+  <!-- Nav bar -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-white bg-white">
+      <div class="container">
+        <div>
+          <a class="navbar-brand" href="#">
+            <img src="img/apple-icon.png" width="20" height="20" class="d-inline-block align-top mt-1"
+              alt="Select an image" loading="lazy">
+            Purple <span class="change_color">BUZZ</span>
+          </a>
+        </div>
+        <div class="col-sm-1">
+          <!-- for space -->
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navy"
+          aria-controls="navy" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse col-sm-6" id="navy">
+          <ul class="navbar-nav ml-auto icon hover_fn text-center">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Work</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+          </ul>
+        </div>
+        <div class="collapse navbar-collapse container-fluid" style="width: 100%;" id="navy">
+          <ul class="navbar-nav posit">
+            <li class="nav-item d-flex justify-content-sm-between ">
+              <a href=""><i class="fa fa-bell" style="color: #1a5fd5;padding-left: 20px;"></i></a>
+              <a href=""><i class="fa fa-gear" style="color: #1a5fd5;padding-left: 20px;"></i></a>
+              <a href=""><i class="fa fa-circle-user" style="color: #1a5fd5;padding-left: 20px;"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <!-- Navbar ends -->
+
+
+  <!-- caraousel -->
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active bg-primary" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" class="bg-primary" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" class="bg-primary" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/banner-bg-01.jpg" class="img-fluid h-100" alt="...">
+        <div class="container">
+          <h5 style="line-height: 1.5;" class="text-primary fs-1 fw-lighter ">Cupidatat non proident,</h5>
+          <h5 style="line-height: 1.5;" class="text-primary fs-1 fw-lighter">Sunt in culpa qui officia</h5>
+          <br>
+          <p style="line-height: 1.2;font-weight: 100;" class="text-dark">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat.</p>
+          <br>
+          <a href="#">
+            <button type="button" style="border-radius: 30px;" class="fs-5 btn btn-outline-primary">Get Started</button>
+          </a>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/banner-bg-02.jpg" class="img-fluid h-100" alt="...">
+        <div class="container">
+          <h5 style="line-height: 1.5;" class="text-primary fs-1 fw-lighter">Develop <span class="fw-bold">Strategies</span> for your business</h5>
+          <br>
+          <p style="line-height: 1.2;font-weight: 100;">Purple Buzz is a corporate HTML template with Bootstrap 5 Beta 1. This CSS template is 100% free to download provided by TemplateMo. Total 6 HTML pages included in this template. Icon fonts by Boxicons. Photos are from Unsplash and Icons 8.</p>
+          <br>
+          <a href="#">
+            <button type="button" style="border-radius: 30px;" class="fs-5 btn btn-outline-light">Get Started</button>
+          </a>
+        </div>
+      </div>
+
+      <div class="carousel-item">
+        <img src="img/banner-bg-03.jpg" class="img-fluid h-100" alt="...">
+        <div class="container">
+          <h5 style="line-height: 1.5;" class="text-primary fs-1 fw-lighter">HTML CSS Template with Bootstrap 5 Beta 1</h5>
+          <br>
+          <p style="line-height: 1.2;font-weight: 100;">You are not allowed to re-distribute this Purple Buzz HTML template as a downloadable ZIP file on any kind of Free CSS collection websites. This is strongly prohibited. Please contact TemplateMo for more information.</p>
+          <br>
+          <a href="#">
+            <button type="button" style="border-radius: 30px;" class="fs-5 btn btn-outline-light">Get Started</button>
+          </a>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true" ></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next " type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next" >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden ">Next</span>
+    </button>
+  </div>
+  <!-- ends carasol -->
+
+
+  <!-- service section -->
+  <section class="service">
+    <div class="container">
+      <br><br>
+      <h2 style="line-height:3;text-align: center;padding-right: 500px;">Services</h2>
+      <h4 class="fw-normal" style="line-height: 2;"> <i class="fa fa-gift" style="color: #050505;padding-right: 10px;"></i>Make Success for future</h4>
+      <p class="text-dark">
+        You are free to use this template for your commercial or business websites. You are not allowed to re-distribute this template ZIP file on any template collection websites. It is too easy to illegally copy and repost this template.
+      </p>
+      <br>
+    </div>
+  </section>
+  <!-- service section ends -->
+
+
+  <!-- image head section -->
+  <section class="img_section bg-primary">
+    <ol class="d-flex p-5" style="justify-content: center;">
+      <li> <a href="#" style="text-decoration: none;" class="text-white">All</a> </li>
+      <li> <a href="#" style="text-decoration: none;" class="text-white">Graphics</a></li>
+      <li> <a href="#" style="text-decoration: none;" class="text-white">UI/UX</a></li>
+      <li> <a href="#" style="text-decoration: none;" class="text-white">Branding</a></li>
+    </ol>
+  </section>
+  <!-- image head ends -->
+
+
+  <!-- image main content starts -->
+    <section class="gallery min-vh-100">
+      <div class="container-lg">
+        
+        <div class="row img_main_1 gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3 row-cols-lg-3 row-cols-xl-4" >
+            <div class="col selectors">
+              <img src="img/services-01.jpg" class="img-fluid" alt="...">
+              <p class="bottom">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+              <button type="button" class="btn btn-outline-light btn-sm bg-light text-dark" style="width: 65%;margin-left: 40px;border-radius: 8px;">UI/UX Design</button>
+            </div>
+            <div class="col selectors">
+              <img src="img/services-02.jpg" class="img-fluid" alt="">
+              <p class="bottom">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                <button type="button" class="btn btn-outline-light btn-sm bg-light text-dark" style="width: 65%;margin-left: 40px;border-radius: 8px;">Social Media</button>
+            </div>
+            <div class="col selectors">
+              <img src="img/services-03.jpg" class="img-fluid" alt="">
+              <p class="bottom">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                <button type="button" class="btn btn-outline-light btn-sm bg-light text-dark" style="width: 65%;margin-left: 40px;border-radius: 8px;">Marketing</button>
+            </div>
+            <div class="col selectors">
+              <img src="img/services-04.jpg" class="img-fluid" alt="">
+              <p class="bottom">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                <button type="button" class="btn btn-outline-light btn-sm bg-light text-dark" style="width: 65%;margin-left: 40px;border-radius: 8px;">Graphic</button>
+            </div>
+            <div class="col selectors">
+              <img src="img/services-05.jpg" class="img-fluid" alt="">
+              <p class="bottom">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                <button type="button" class="btn btn-outline-light btn-sm bg-light text-dark" style="width: 65%;margin-left: 40px;border-radius: 8px;">Digital Marketing</button>
+            </div>
+            <div class="col selectors">
+              <img src="img/services-06.jpg" class="img-fluid" alt="">
+              <p class="bottom">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                <button type="button" class="btn btn-outline-light btn-sm bg-light text-dark" style="width: 65%;margin-left: 40px;border-radius: 8px;">Market Research</button>
+            </div>
+            <div class="col selectors">
+              <img src="img/services-07.jpg" class="img-fluid" alt="">
+              <p class="bottom">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                <button type="button" class="btn btn-outline-light btn-sm bg-light text-dark" style="width: 65%;margin-left: 40px;border-radius: 8px;">Business</button>
+            </div>
+            <div class="col selectors">
+              <img src="img/services-08.jpg" class="img-fluid" alt="">
+              <p class="bottom">Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+                <button type="button" class="btn btn-outline-light btn-sm bg-light text-dark" style="width: 65%;margin-left: 40px;border-radius: 8px;">Branding</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- image main content ends -->
+
+
+  <!-- image footer section -->
+  <section class="img_footer bg-primary pt-5 pb-2 text-light">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col box_1">
+          <i class="fa fa-box-archive fa-2xl" style="color: #ffffff;"></i>
+        </div>
+        <div class="col fs-5 fw-light footer_para" style="line-height: 0.6;">
+          <p>Great transformations successful</p>
+          <p style="font-size: 14px;">Quis ipsum suspendisse ultrices gravida</p>
+        </div>
+        <div class="col box_2" >
+          <span class="changer"><a href="" style="text-decoration: none;" class="text-white"> View our Work</a></span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- image footer section ends -->
+
+
+  <!--  Bottom section-->
+  <section class="gallery min-vh-100">
+    <div class="container-lg">
+      
+      <div class="row img_main_1 gy-4 row-cols-1 row-cols-sm-2 row-cols-md-3" >
+        <div class="col selectors opac">
+          <img src="img/recent-work-01.jpg" class="img-fluid" alt="..." style="object-fit: cover;">
+          <p class="above">Social Media</p>
+          <p class="below">Ullamco laboris nisi ut aliquip ex</p>
+        </div>
+        <div class="col selectors opac">
+          <img src="img/recent-work-02.jpg" class="img-fluid" alt="">
+          <p class="above">Web Marketing</p>
+          <p class="below">Psum officia anim id est laborum.</p>
+  
+        </div>
+        <div class="col selectors opac">
+          <img src="img/recent-work-03.jpg" class="img-fluid" alt="">
+          <p class="above">R & D</p>
+          <p class="below">Sum dolor sit consencutur</p>
+  
+        </div>
+        <div class="col selectors opac">
+          <img src="img/recent-work-04.jpg" class="img-fluid" alt="">
+          <p class="above">Public Reaction</p>
+          <p class="below">Lorem ipsum dolor sit amet</p>
+  
+        </div>
+        <div class="col selectors opac">
+          <img src="img/recent-work-05.jpg" class="img-fluid" alt="">
+          <p class="above">Branding</p>
+          <p class="below">Put enim ad minim veniam</p>
+  
+        </div>
+        <div class="col selectors opac">
+          <img src="img/recent-work-06.jpg" class="img-fluid" alt="">
+          <p class="above">Creative Design</p>
+          <p class="below">Mollit anim id est laborum.</p>
+  
+        </div>
+      </div>
+    </div>
+  </section>
+  
+  <!--  Bottom section ends-->
+
+
+  <!-- Footer Section -->
+  <div class=" bg-primary text-light" style="padding-top: 50px;padding-bottom: 40px;">
+      <!-- <div class=" container "> -->
+        <ol class="flex_prop">
+          <li>
+            <p> <img src="img/apple-icon.png" alt="" width="23" height="23"> Purple BUZZ</p>
+            <div>
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut.</p>
+            </div>
+            <div>
+              <span><i class="fa-brands fa-square-facebook fa-2xl" style="color: #ffffff;"></i></span>
+              <span><i class="fa-brands fa-linkedin fa-2xl" style="color: #ffffff;"></i></span>
+              <span><i class="fa-brands fa-square-whatsapp fa-2xl" style="color: #ffffff;"></i></span>
+              <span><i class="fa fa-ellipsis fa-2xl" style="color: #ffffff;"></i></span>
+              <span><i class="fa fa-sharp fa-solid fa-square-m fa-2xl" style="color: #f7f7f7;"></i></span>
+            </div>
+          </li>
+
+          <li>
+            <div style="padding-left: 50px;" >
+              <p >Our Company</p>
+              
+                <div class="foot_work"><a href="#" class="text-light">>Home</a></div>
+                <div class="foot_work"><a href="#" class="text-light">>About Us</a></div>
+                <div class="foot_work"><a href="#" class="text-light">>Work</a></div>
+                <div class="foot_work"><a href="#" class="text-light">>Price</a></div>
+                <div class="foot_work"><a href="#" class="text-light">>Contact</a></div>
+              
+            </div>
+          </li>
+
+          <li>
+            <div>
+              <p>Our Works</p>
+              <div class="foot_work"><a href="#" class="text-light">>Branding</a></div>
+              <div class="foot_work"><a href="#" class="text-light">>Business</a></div>
+              <div class="foot_work"><a href="#" class="text-light">>Marketing</a></div>
+              <div class="foot_work"><a href="#" class="text-light">>Social Media</a></div>
+              <div class="foot_work"><a href="#" class="text-light">>Digital Solution</a></div>
+              <div class="foot_work"><a href="#" class="text-light">>Graphic</a></div>
+              
+            </div>
+          </li>
+
+          <li>
+            <div>
+              <p>For Client</p>
+              <p><span><i class="fa fa-phone" style="color: #ffffff;"></i></span> 010-020-0340</p>
+              <p><span><i class="fa fa-box" style="color: #ffffff;"></i></span> info@company.com</p>
+            </div>
+          </li>
+        </ol>
+        
+      <!-- </div> -->
+    </div>
+   <!-- Footer Section ends-->
+
+
+
+   <!-- Bottom end footer -->
+    <section style="background-color: darkblue;" class="text-light">
+      <div class="container layout">
+        <ol>
+          <li class="text-center"><span>© Copyright 2021 Purple Buzz Company. All Rights Reserved.</span></li>
+          <li class="text-center">Designed by <span class="fw-semibold">TemplateMo</span></li>
+          <li class="text-center">Distributed by <span class="fw-semibold">Themewagon</span></li>
+        </ol>
+      </div>
+    </section>
+    <!--bOTTOM END FOOTER ENDS  -->
+
+    <!-- end of project -->
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+    crossorigin="anonymous"></script>
+</body>
+</html>
